@@ -133,8 +133,7 @@ class Game:
                 if self.select_continue() == "n":
                     if self.secondary_options():
                         self._main_menu()
-                    else:
-                        break
+                    break
 
 
 def initialize():
